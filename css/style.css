@@ -1,0 +1,215 @@
+@import "common.css";
+
+@font-face {
+    font-family: 'iconfont';  /* project id 900350 */
+    src: url('http://at.alicdn.com/t/font_900350_ogarbupw7bg.eot');
+    src: url('http://at.alicdn.com/t/font_900350_ogarbupw7bg.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_900350_ogarbupw7bg.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_900350_ogarbupw7bg.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_900350_ogarbupw7bg.svg#iconfont') format('svg');
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 100%;
+    min-height: 600px;
+    background: #000 url(../imgs/exhi.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+/* 遮罩 */
+/* header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .2);
+} */
+header .logo {
+    color: #fff;
+    font-size: 32px;
+    font-family: "Arial Black";
+    float: left;
+}
+header .nav {
+    float: right;
+}
+header .nav>li {
+    float: left;
+    margin: 10px;
+}
+header .nav a {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+header .nav a:hover {
+    background: #f7ba3e;
+}
+header .intro {
+    width: 400px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 70%;
+}
+header .intro .btn {
+    display: inline-block;
+    background-color: #f7ba3e;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+header .intro .btn:hover {
+    /* background: #ffa200; */
+    opacity: .8;
+}
+header .intro h1 {
+    margin-bottom: 10px;
+}
+header .intro p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+main #job-it,#spe-skill,#tech-blog {
+    background-color: #fff;
+}
+
+main #edu-bg,#pro-expe {
+    background-color: #f7f7f7;
+}
+section {
+    text-align: center;
+    padding: 150px 0;
+}
+section>h2 {
+    font-size: 40px;
+}
+section>p {
+    margin: 30px 0;
+}
+section>ul .iconfont {
+    font-size: 60px;
+}
+section>ul .icon-HTML {
+    color: #e44d26;
+}
+section>ul .icon-CSS {
+    color: #264de4;
+}
+section>ul .icon-JavaScript {
+    color: #f5dd1e;
+}
+section>ul .icon-Vue {
+    color: #41b883;
+}
+section>ul .icon-React {
+    color: #61dafb;
+}
+section>ul .icon-Nodejs {
+    color: #231815;
+}
+section>ul .icon-webpack {
+    color: #1c78c0;
+}
+section>ul .icon-Sass {
+    color: #cf649a;
+}
+section>ul .icon-Adobe-Photoshop {
+    color: #5dc6f4;
+}
+
+section>ul>li {
+    float: left;
+    width: 30%;
+    height: 210px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flow-root;
+}
+section>ul p {
+    margin-top: 10px;
+}
+
+footer {
+    height: 100px;
+    background: #adadad;
+}
+footer>.layout {
+    margin: auto auto;
+    position: relative;
+}
+footer>.layout>.copyright {
+    font-size: 16px;
+    float: left;
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+    margin-left: 30px;
+}
+footer>.layout>.feedback {
+    
+    float: right;
+    display: inline-block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+}
+footer>.layout>.feedback a {
+    font-size: 16px;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+footer>.layout>.feedback a:hover {
+    color: #fff;
+    background: #f7ba3e;
+    border-radius: 4px;
+}
+footer>.layout>ul {
+    text-align: center;
+    position: absolute;
+    top: 12.5px;
+    left: 50%;
+    margin-left: -123.89px;
+}
+footer>.layout>ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+footer>.layout>ul .iconfont {
+   font-size: 50px; 
+}
+footer>.layout>ul .icon-github {
+    color: #666;  
+}
+footer>.layout>ul .icon-zhihu {
+    color: #0078d1;
+}
+footer>.layout>ul .icon-jianshu {
+    color: #f1412a;
+}
+
+.top-back a {
+    font-family: iconfont;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 40px;
+    color: #adadad;
+}
